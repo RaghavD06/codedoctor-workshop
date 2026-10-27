@@ -1,0 +1,18 @@
+[
+  "Thank you! Quick show of hands. Who used ChatGPT, Gemini, or Claude this week?\nKeep it up if you've ever BUILT something with one. That's the gap we close tonight. In\n45 minutes, every person here builds a working AI agent.",
+  "Ask a chatbot 'does this code work?' and it guesses. An agent runs it and finds out.",
+  "An LLM is a brilliant brain in a jar. It can reason but can't touch anything.\nTools give it hands. The loop gives it persistence. It keeps going until the job is done.",
+  "If you remember one line from tonight, remember this.",
+  "We never write the steps. The model plans them. That's what makes it agentic.",
+  "LangGraph, CrewAI, agent SDKs: all built on this loop. Tonight we build the loop by\nhand so the frameworks stop feeling like magic.",
+  "CodeDoctor debugs code like a real developer. Runs it, reads the error, fixes it,\nwrites tests to prove it, and loops until everything passes.",
+  "Green sticky on your laptop lid when done, red if stuck and a helper will come.\nFall behind? The catch-up section at the bottom gets you back in one cell.",
+  "It sounds sure. But did it run the code? Did it test anything? Would you merge a\npull request nobody ever ran?",
+  "The model never runs code. It reads these descriptions and asks us to. And notice:\nerrors come back as text, not crashes. That's what lets the agent read them and fix them.",
+  "Walk through slowly. Each time around: send everything to the model. Did it ask for\na tool? No: done. Yes: run it, send back the result, go again. max_steps is a guardrail.",
+  "First it crashes. Fix that, it crashes again. Fix that, it runs, and says the class\naverage is 184 out of 100. Running code isn't working code. That's why CodeDoctor writes\ntests, and why it's not allowed to claim success until they pass.",
+  "Gradio turns any Python function into a web app. One line, public link. Open it on\nyour phone, paste your own buggy code. Security note: it runs on your machine with your\nkey, share with friends only.",
+  "Here's where this goes. CodeLens is something I built. Same loop you wrote tonight,\nbut the tools read and analyze an entire codebase: explain files, find bugs, generate\ntests, map the architecture.",
+  "Every framework wraps this loop. MCP is a standard way to plug tools in.\nMulti-agent? Make run_agent a tool for another agent. Same loop, nothing new.",
+  "The notebook is yours to keep. Fill the feedback form, it really helps. A couple\nof minutes for questions."
+]

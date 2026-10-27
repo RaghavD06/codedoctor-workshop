@@ -1,10 +1,13 @@
-# STAGE 2 - TRY THE TOOLS BY HAND GOES HERE
-# Notebook: "Stage 2: Try the tools by hand"
-# This is a manual practice script, not an automatically collected pytest test.
-# Add import: from examples.patient import BUGGY_CODE
-# Add import: from tools.python_tools import run_code, save_file, run_tests, reset_workspace
-# Paste the whole manual-check cell here.
-# Expected: the patient's NameError, then 1 passed.
-# Run the demonstration in Colab during the workshop.
+"""Stage 2 manual check. From the repo root: python -m tests.manual_tool_check"""
+from examples.patient import BUGGY_CODE
+from tools.python_tools import Workspace
 
-# PASTE THE MANUAL TOOL CHECK BELOW THIS LINE
+def main():
+    with Workspace() as workspace:
+        print(workspace.run_code(BUGGY_CODE))
+        print(workspace.save_file("hello.py", "def add(a, b):\n    return a + b\n"))
+        print(workspace.save_file("test_hello.py", "from hello import add\n\ndef test_add():\n    assert add(2, 3) == 5\n"))
+        print(workspace.run_tests())
+
+if __name__ == "__main__":
+    main()

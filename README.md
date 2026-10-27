@@ -1,6 +1,8 @@
 # CodeDoctor
 
-[Open the notebook in Colab](https://colab.research.google.com/github/RaghavD06/codedoctor-workshop/blob/main/CodeDoctor.ipynb)
+**VS Code + Streamlit:** [CodeDoctor.ipynb](CodeDoctor.ipynb) is the complete-file copy guide. Every block includes imports; replace the entire destination file. Run the finished app from the terminal, not by executing guide cells.
+
+**Run directly in Colab:** [Open the separate Colab lesson](https://colab.research.google.com/github/RaghavD06/codedoctor-workshop/blob/main/CodeDoctor_Colab.ipynb). Run its cells in order; do not paste those shared-state cells into separate files.
 
 The Python files now contain the finished implementation, following the notebook stages.
 

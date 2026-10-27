@@ -1,0 +1,5 @@
+# Packages used by the notebook and the two web-interface options.
+openai
+pytest
+gradio
+streamlit
